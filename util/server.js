@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 let baseDirectory = '.';
-let port = 8080;
+let port = 3030;
 let host = '0.0.0.0';
 let lasttRequesTime = performance.now() / 1000;
 for(let i = 0; i < process.argv.length; ++i) {
